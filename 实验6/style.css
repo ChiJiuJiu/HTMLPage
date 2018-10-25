@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#666;
+	}
+#top_wrap{
+	width:100%;
+	position:relative;
+	}
+#top_bar_bg{
+	width:100%;
+	background-color:#B7C098;
+	}
+.w1200{
+	width:1200px;
+	margin:0 auto;
+	}
+.w1200 h2{
+	
+	}
+#top_ad_bg{
+	width:100%;
+	background-color:#CED5B9;
+	}
+#nav_bg{
+	width:100%;
+	background-color:#efefef;
+	}
+#catalog{
+	width:240px;
+	height:360px;
+	float:left;
+	background-color:#F00;
+	}
+#news{
+	width:278px;
+	height:360px;
+	float:left;
+	background-color:#09C;
+	border:1px solid #efefef;
+	}
+#slide{
+	width:640px;
+	float:left;
+	height:360px;
+	margin:0 10px;
+	background-color:#039;
+	}
+.h30{
+	height:30px;
+	}
+.h50{
+	height:50px;
+	}
+.h80{
+	height:80px;
+	}
+#main_bottom{
+	clear:both;
+	}
+#products ul li{
+	width:211px;
+	height:150px;
+	float:left;
+	background-color:#999;
+	margin:0 10px;
+	list-style-type:none;
+	}
+	.foot{
+	height:120px;
+	background-color:#0FF;
+	clear:both;
+	margin-top:10px;
+	text-align:center;
+	line-height:120px;
+	}
+	#main_top{
+		
+		}
+#products{
+	border:1px solid #efefef;
+	height:230px;
+	margin-top:10px;
+	}
+#products ul{
+	position:relative;
+	top:20px;
+	}

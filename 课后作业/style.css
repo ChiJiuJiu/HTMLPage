@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.head,.photo{
+	height: 130px;
+	width: 100%;
+	background-color:#D9D9D9;
+	margin: 0;
+}
+.head img{
+	height: 100px;
+	margin: 0 6%;
+	display: inline;
+	float: left;
+	position:relative;
+}
+.head ul li{
+	display: inline;
+	margin: 2%;
+	float: left;
+	position: relative;
+}
+.Theme ul li{
+	display: inline;
+	float: left;
+	margin: 2% 6%;
+}
+option{
+	position: absolute;
+}
+.photo{
+	height: 120px;
+	width: 100%;
+	background-color:aqua;
+	margin: 0;
+}
+.Theme{
+	height: 300px;
+	width: 100%;
+	background-color:#D9D9D9;
+	margin: 0;
+}
+.Theme ul{
+	margin: 0;
+}
+.products{
+	height: 300px;
+	width:100%;
+}
+.products h3,.news h3,.foot h3{
+	display: inline;
+	position: relative;
+	margin: 0;
+	clear: both;
+}
+.products h4,.news h4,.foot h4{
+	display: inline;
+	float: right;
+	margin: 0;
+	position: relative;
+	clear: both;
+}
+.products ul li{
+	display: inline;
+	float: left;
+	margin: 0 5%;
+}
+.products p{
+	text-align: center;
+}
+.products img{
+	margin:  0;
+	height: inherit;
+	display: inline;
+	float: left;
+	position: relative;
+}
+.news{
+	height: 400px;
+	clear: left;
+	width:100%;
+}
+.news .left{
+	margin: 0;
+	width: 60%;
+	height: inherit;
+	float: left;
+	display: inline;
+	padding: 0;
+}
+.news .right{
+	margin: 0;
+	width: 40%;
+	height: inherit;
+	float: left;
+	display: inline;
+}
+.right img{
+	margin: 0;
+	position: relative;
+	float: left;
+	clear: both;
+}
+.foot{
+	height: 220px;
+	background-color:#D9D9D9;
+	clear: both;
+	margin: 0;
+	width:100%;
+}
+.last{
+	height: 60px;
+	width: 100%;
+	background-color:#849FD2;
+	margin: 0;
+}
+#img1,#img2,#img3,#img4{
+	display: inline;
+	margin : 0;
+}
+#img4{
+	transform: scale(0.7);
+	float: left;
+	position: absolute;
+}
+#img5{
+	margin: 10px 10px;
+	position: relative;
+	display: inline;
+	float: left;
+}
+.right h2{
+	position: relative;
+	display: inline;
+	float: left;
+}
+.left ul li{
+	margin: 0;
+	padding: 0;
+}
+.foot .left{
+	height: 200px;
+	width: 30%;
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+.foot .mid{
+	height: 200px;
+	width: 20%;
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+.foot .right{
+	height: 200px;
+	width: 20%;
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+.foot ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#ful li,#lul li{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	display: inline;
+	float: left;
+}
+#lul{
+	margin: 0;
+}
+footer{
+	margin: 0;
+	padding: 10px;
+	float: right;
+}

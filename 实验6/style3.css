@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#333;
+	}
+#top_wrap{
+	width:100%;
+	position:relative;
+	}
+#top_bar_bg{
+	witdh:100%;
+	background-color:#B7C098;
+	}
+.w1200{
+	width:1200px;
+	margin:0 auto;
+	}
+.w1200 h2{
+	height:30px;
+	line-height:30px;
+	background-color:#9FC;
+	}
+#top_ad_bg{
+	witdh:100%;
+	background-color: #CED5B9;
+	}
+#nav_bg{
+	witdh:100%;
+	background-color:#efefef;}
+#catalog{
+	width:240px;
+	height:360px;
+	float:left;
+	background-color:#F00;
+	}
+#slide{
+	width:640px;
+	height:360px;
+	float:left;
+	margin:0 20px;
+	background-color:#039;
+	}	
+#news{
+	width:278px;
+	height:360px;
+	float:left;
+	border:1px solid #efefef;
+	}
+#main_bottom{
+	clear:both;
+	height:230px;
+	margin:10px auto;
+	}
+#main_top{
+	margin-top:10px;
+	}
+.foot{
+	clear:both;
+	height:120px;
+	background-color:#0FF;
+	text-align:center;
+	line-height:120px;
+	}
+#products {
+		border:1px solid #efefef;
+		height:230px;
+		margin-top:10px;
+		padding-top:20px;
+	}
+
+#products ul li{
+	width:218px;
+	height:150px;
+	float:left;
+	background-color:#999;
+	margin:0 10px;
+	}
+.h30{
+	height:30px;
+	}
+.h50{
+	height:50px;
+	}
+.h80{
+	height:80px;
+	}

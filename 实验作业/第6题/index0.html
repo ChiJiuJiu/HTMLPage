@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>表单</title>
+<style>
+	form{
+		border: dotted;
+		width: 20%;
+		background-color: #DA259F;
+	}
+	[type="text"]{
+		background-color:aqua;
+	}
+	[type="submit"]{
+		color: blue;
+	}
+	[value="red"]{
+		background-color: red;
+	}
+	[value="green"]{
+		background-color: green;
+	}
+	[value="blue"]{
+		background-color: blue;
+	}
+	[value="yellow"]{
+		background-color: yellow;
+	}
+	[value="cyan"]{
+		background-color: cyan;
+	}
+	[value="purple"]{
+		background-color: purple;
+	}
+	select{
+		background-color: red;
+	}
+	textarea{
+		border: dashed;
+		background-color:#46E427;
+	}
+</style>
+  </head>
+<body>
+<form method="post">
+<p>请输入您的姓名:<br><input type="text" name="name" id="name" ></p>
+<p>请选择你最喜欢的颜色:<br>
+<select name="color" id="color">
+	<option value="red">红</option>
+	<option value="green">绿</option>
+	<option value="blue">蓝</option>
+	<option value="yellow">黄</option>
+	<option value="cyan">青</option>
+	<option value="purple">紫</option>
+</select></p>
+<p>请问你的性别:<br>
+	<input type="radio" name="sex" id="male" value="male" >男<br>
+	<input type="radio" name="sex" id="female" value="female" >女</p>
+<p>你喜欢做些什么:<br>
+	<input type="checkbox" name="hobby" id="book" value="book" 看书
+	<input type="checkbox" name="hobby" id="net" value="net" >上网
+	<input type="checkbox" name="hobby" id="sleep" value="sleep" >睡觉</p>
+<p>我要留言:<br><textarea name="comments" id="comments" cols="30" rows="4" ></textarea></p>
+<p><input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" ></p>
+</form>
+</body>
+</html>
