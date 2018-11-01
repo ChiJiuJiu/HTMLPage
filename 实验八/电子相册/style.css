@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0.8em;
+	padding:0;
+	}
+div.pic{
+	float:left;
+	height:160px;
+	width:160px;
+	margin:6px;
+	padding:0px;
+	}
+div.pic img{
+	border:1px solid #82c3ff;
+	}
+div.ls{
+	background:url(images/framels.jpg) no-repeat center;
+	}
+div.pt{
+	background:url(images/framept.jpg) no-repeat center;
+	}
+div.ls img{
+	margin:30px 30px 20px 10px;
+	height:90px;
+	width:135px;
+	}
+div.pt img{
+	margin:0px;
+	height:135px;
+	width:90px;
+	}
+div.pic ul{
+	display:none;
+	}
+div.pt a{
+	display:block;
+	padding:11px 36px 14px 34px;
+	}
+div.ls a:hover{
+	background:url(images/framels_hover.jpg) no-repeat center;
+	}
+div.pt a:hover{
+	background:url(images/framept_hover.jpg) no-repeat center;
+	}
