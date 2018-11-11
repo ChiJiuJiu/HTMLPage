@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>新大陆手机商城</title>
+	<!-- TemplateEndEditable -->
+	<style type="text/css">    
+    #main h1 {
+	margin-bottom: 0px;
+}
+    #main h2 {
+	margin-top: 0px;
+	font-size: medium;
+}
+    </style>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+	#apDiv1 {
+	position:absolute;
+	left:626px;
+	top:87px;
+	width:114px;
+	height:25px;
+	z-index:1;
+}
+    </style>
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	</head>
+<body>
+<div id="container">
+  <div id="apDiv1">站点地图 | 登录</div>
+  <div id="header"><img src="../images/logo.png" width="214" height="45" /></div>
+  <div id="navigation">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">产品</a></li>
+      <li><a href="#">服务</a></li>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">联系我们</a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <h1 >智能手机    </h1>
+    <!-- TemplateBeginRepeat name="Phones" -->
+    <table width="94%" border="0" cellpadding="2" class="styledtable">
+      <tr>
+        <td width="50%" height="50" align="center"><!-- TemplateBeginEditable name="PhoneName" -->
+          <p>{Phone}</p>
+        <!-- TemplateEndEditable -->          <p><!-- TemplateBeginEditable name="Phone_Image" --><img src="" alt="" name="phone_img" width="85" height="81" id="phone_img" /><!-- TemplateEndEditable --></p></td>
+        <td width="50%" height="50" align="center"><p>{Phone}</p>
+          <p><img src="" alt="" name="phone_img" width="85" height="81" id="veg_thumb2" /></p></td>
+      </tr>
+    </table>
+    <!-- TemplateEndRepeat -->
+    <p >&nbsp;</p>
+<p >&nbsp;</p>
+    <p >&nbsp;</p>
+    <h1 >&nbsp;</h1>
+</div>
+  <div id="sidebar">
+    <dl>
+      <dt>资讯导购</dt>
+      <dd>
+      <ul> 
+      	<li>三星 S5830</li>
+      	<li>苹果 iPhone 4S</li>
+        <li>小米手机</li>
+        <li>苹果 iPhone 4</li>
+        <li>索爱 LT18i</li>
+        <li>诺基亚 N9</li>
+        <li>三星 i9000</li>
+      	<li>诺基亚 C5-03</li>
+      </ul>
+      </dd>
+      <dt>降价信息!</dt>
+      <dd> <p>您知道吗？我们致力于使我们的客户拥有来自世界各地的最高品质的手机和设备。我们与供应商之间的关系，使我们能够提供最低的产品价格。</p></dd>
+      <dt>&nbsp;</dt>
+      <dt>&nbsp;</dt>
+    </dl>
+  </div>
+  <div id="footer">
+    <p>新大陆手机商城&copy;版权所有</p>
+  </div>
+</div>
+</body>
+</html>
