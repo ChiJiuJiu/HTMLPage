@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*没有做初始化*/
+body {
+	font-family: "微软雅黑";
+	font-size: .75em;
+	color: #333;
+	background-color: #739112;
+	text-align: center;
+}
+
+    #container {
+	background-color: #FFF;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;/*以便内部元素绝对定位*/
+	text-align: left;
+	background-image: url(images/container_bg.gif);
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+
+#header {
+	height:80px;
+	z-index:1;
+	background-color: #9fcc41;
+	background-image: url(images/phones.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+
+#header img {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+ 
+dl {
+	color: #000;
+	font-size: 1em;
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+dd {
+	font-size: small;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+    #navigation {
+	background-color: #88b036;
+	height: 36px;
+	width: 100%;
+}
+    #footer {
+	background-color: #CCC;
+	clear: both;
+	text-align: center;
+}
+#navigation ul li {
+	float: left;
+	list-style-type: none;
+}
+#navigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-top: 8px;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+}
+#navigation a:hover {
+	background-color: #9fcc41;
+}
+#navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+#sidebar {
+	float: right;
+	width: 270px;
+	background-color: #C8D9BC;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #060;
+}
+    #main {
+	float: left;
+	width: 520px;
+	padding-left: 20px;
+}
+#recommend {
+	float: left;
+	margin-right: 10px;
+}
+	#apDiv1 {
+	position:absolute;
+	left:70%;
+	top:87px;
+	width:118px;
+	height:25px;
+	z-index:1;
+	color: #FF0;
+	text-align: center;
+}
+    
+    
+.styledtable {
+	background-color: #FFF;
+	font-size: 10px;
+	color: #006;
+	border: 1px solid #006;
+	margin:0 auto;
+	width:95%;
+}
+.styledtable tr th {
+	background-image: url(bg_header.jpg);
+	background-repeat: repeat-x;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #006;
+	text-transform: capitalize;
+	font-size: 14px;
+	text-align: center;
+}
+.styledtable tr td {
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	border: 1px dashed #9AA8BD;
+}
+
+.oddrow {
+	background-color: #EAF1F4;
+}
+
+@media screen and (max-width:960px){
+		#container {
+			width:82.021%;
+			}
+		#main{
+			width:61.904%;
+			padding-left:2.380%;
+			}
+		#sidebar{
+			width:32.143%;
+			border-left-width:0.238%;
+			}
+	}
+@media screen and (max-width:720px){
+	
+	}
+	
+@media screen and (max-width:375px){
+	#container{
+		width:100%;
+		background-image: url();
+		position:relative;
+		}
+	#main{
+		width:98%;
+		margin:0 auto;
+		float:none;
+		}
+	#sidebar{
+		width:98%;
+		margin:0 auto;
+		float:none;
+		}
+	#header{
+		background-image:url();
+		}
+	#apDiv1{
+		left:70%;
+		top:10px;
+		z-index:100;
+		}
+	.styledtable{
+		width:95%;
+		}
+	}
