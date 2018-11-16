@@ -45,13 +45,27 @@ p{
 	background-image: url(img/bg-header.gif);
 	background-repeat: repeat-x;
 	padding-left: 380px;
+	font-size:12px;
 }
 .nav ul li{
 	float: left;
 	line-height: 28px;
-	padding: 0 10px;
+	padding: 0 5px;
 	margin-top:20px;
 
+}
+.nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	background: #ececec url(img/bg-menu_separator.gif) right bottom no-repeat;
+	text-align: center;
+	width: 75px;
+	height: 28px;
+}
+
+.nav ul li a:hover{
+	background:url(img/bg-menu_separator-hover.gif) right bottom no-repeat;
 }
 
 .top_menu_bg{
@@ -142,15 +156,15 @@ h3{
 	width: 130px;
 	height: 27px;
 	text-indent: -9999em;
-	background:url(img/btn-view_portfolio-large.gif)top;
-	float: right;
+	background:url(img/btn-view_portfolio-large.gif) top;
 	}
 #article_a:hover{
-	background:url(img/btn-view_portfolio-large.gif)  bottom;
+	background:url(img/btn-view_portfolio-large.gif) bottom;
+	text-indent: -9999em;
 }
 .img{
 	float: left;
-	display: block;
+	display:inline;
 }
 .title{
 	display: inline;
@@ -164,10 +178,10 @@ h3{
 	width: 114px;
 	height: 27px;
 	text-indent: -9999em;
-	background:url(img/btn-view_services.gif) top;
+	background:url(img/btn-view_services.gif) left top;
 }
 .a:hover{
-	background:url(img/btn-view_services.gif) bottom;
+	background:url(img/btn-view_services.gif) left bottom;
 }
 .bottom{
 	width: 100%;	
@@ -179,10 +193,11 @@ h3{
 .article_list{
 	width: 100%;
 	height: auto;
+	clear: both;
 }
 .article_list ul li{
-	margin: 10px 20px 60px 22px;
-	display: inline;
 	float: left;
-	width: 20%;
+	padding: 0 10px;
+	width: 22%;
+	background: url(img/bg-work_detail_one-separator.gif) right no-repeat;
 }
