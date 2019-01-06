@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: small;
+	color: #333;
+	background-color: #739112;
+	text-align: center;
+}
+#container {
+	background-color: #FFF;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align: left;
+	background-image: url(images/container_bg.gif);
+	background-repeat: repeat-y;
+}
+
+
+#header {
+	height:80px;
+	z-index:1;
+	background-color: #9fcc41;
+	background-image: url(images/phones.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+
+#header img {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+ 
+
+#navigation {
+	background-color: #88b036;
+	height: 36px;
+	width: 100%;
+}
+
+#navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+#navigation ul li {
+	float: left;
+	list-style-type: none;
+}
+#navigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-top: 8px;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+}
+#navigation a:hover {
+	background-color: #9fcc41;
+}
+
+#main logo{
+	position: left;
+	width: 20px;
+	height: 30px;
+	
+	
+	
+	
+}
+#footer {
+	background-color: #CCC;
+	clear: both;
+	text-align: center;
+}
